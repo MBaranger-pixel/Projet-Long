@@ -8,7 +8,7 @@ font-family: 'Roboto', sans-serif;
 }
 body{
     /* background-color: #96A6CD; */
-    background-color: brown;
+    background-color: #96A6CD;
     color: white;
 }
 
@@ -305,4 +305,47 @@ body{
 
     background-color: #96A6CD;
     color: white;
+}
+
+/* Page messagerie version Ipad (message.html) */
+
+
+#bar{
+    background-color: white;
+    height: 30px;
+    width: 70%;
+}
+
+#photo-p{
+    background-color: white;
+    border-radius: 50%;
+    padding: 2%;
+}
+
+.writing{
+    position: fixed;
+    transform: translate(-50%);
+
+    top: 92%;
+    left: 60%;
+}
+
+#writing-bar{
+    text-decoration: none;
+    font-size: 30pt;
+    font-weight: 400;
+    text-decoration: none;
+
+    background-color: #CAD4EC;
+
+    width: 25em;
+    height: 1.5em;
+
+
+    border-radius: 10px;
+    border: 0;
+
+    font-size: 25px;
+    font-weight: 400;
+    color: black;
 }
