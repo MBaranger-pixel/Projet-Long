@@ -306,3 +306,39 @@ body{
     background-color: #96A6CD;
     color: white;
 }
+
+section{
+    display: block;
+}
+
+#menu{
+    padding: 2em 1.5em 1.5rem 1.5em;
+    background-color: rgba(255, 255, 255, 255);
+    cursor: default; 
+    width: 159px;  
+    left: 0;  
+    position: fixed; 
+    border-radius: 0 60px 60px 0;
+    height: 712px;
+    box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.25);
+}
+
+#menu > .contenu  {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#menu > .contenu nav {
+display: flex;
+flex-direction: column;
+
+}
+
+
+
+.contenu  li {
+    margin:  5vh 0;
+    list-style: none;
+}
