@@ -1,0 +1,308 @@
+/* Element communicant */
+
+*{
+padding: 0;
+margin: 0;
+
+font-family: 'Roboto', sans-serif;
+}
+body{
+    /* background-color: #96A6CD; */
+    background-color: brown;
+    color: white;
+}
+
+::placeholder{
+    color: white;
+}
+
+.container{
+    position: fixed;
+    width: 60vh;
+    height: 100%;
+    background-color: #96A6CD;
+}
+.log , .info {
+    width: 325px;
+
+    font-size: 25px;
+    font-weight: 400;
+    text-decoration: none;
+    background: transparent;
+    color: white;
+
+    border: 0;
+    border-bottom: 2px solid white;
+
+    padding: 4px 0;
+
+}
+
+.validation , .info , .autour , #name , #loc , #proximiter
+.profile , #view-profile {
+    position: absolute;
+    transform: translate(-50%);
+}
+
+.mail , #where , #who{
+    position: absolute;
+
+    top: 20vh;
+    left: 30vh;
+    transform: translate(-50%);
+}
+
+.pass{
+    position: absolute;
+
+    top: 30vh;
+    left: 30vh;
+    transform: translate(-50%);
+}
+
+.save{
+    position: absolute;
+    display: inline-block;
+    top: 40vh;
+    left: 30vh;
+    transform: translate(-50%);
+}
+
+.saveme{
+    font-size: 20pt;
+    font-weight: 300;
+    color: white;
+}
+
+.bouton{
+    text-align: center;
+
+    border-radius: 2rem;
+
+    font-size: 35px;
+    color: #96A6CD;
+    text-decoration: none;
+
+    position: relative;
+    transform: translate(-50%);
+    
+    background-color: white;
+
+    padding: 1rem;
+}
+
+.login{
+
+    top: 50%;
+    left: 42%;
+    
+}
+.Contain{
+    text-align: center;
+}
+
+.create{
+    position: absolute;
+
+    top: 55vh;
+    left: 30vh;
+    transform: translate(-50%);
+
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    text-decoration: none;
+
+    padding: 1%;
+    border-bottom: 2px solid white;
+    
+}
+
+/* Page séléction (select.html) */
+
+#choice , #where , #who{
+    position: absolute;
+    transform: translate(-50%);
+    top: 20vh;
+    left: 50%;
+
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.B1 , .B2 , #or{
+
+    position: relative;
+    display: block;
+    left: 50%;
+    transform: translate(-50%);
+
+    font-size: 25px;
+}
+
+.B1{
+    top: 60%;
+    
+}
+
+.B2{
+    top: 60vh;
+    
+}
+
+#or{
+    top: 50vh;
+
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Page Localisation (cr-age-1.html) */
+
+.map{
+    width: 100%;
+    height: 100%;
+}
+
+.A1 {
+    left: 30vh;
+    top: 50%;
+}
+
+.A2{
+    left: 12vh;
+    top: 60%;
+    width: 50px;
+}
+
+.A3{
+    left: 36vh;
+    top: 60%;
+    width: 230px;
+}
+
+.V1 , .V3 , .V4 , .V5 {
+    left: 30vh;
+    top: 70%;
+}
+
+/* Page liste pairrain (cr-age-2.html) */
+
+#consigne{
+    font-size: 15px;
+    font-weight: 100;
+    text-align: center;
+}
+
+#autour{
+    font-weight: 300;
+    font-size: 25px;
+    text-align: center;
+
+    top: 10%;
+    
+}
+
+#ville{
+    font-weight: bold;
+    font-size: 40px;
+
+    text-align: center;
+    
+}
+
+.profile{
+    background-color: white;
+    border-radius: 2rem;
+    color: black;
+
+    width: 50vh;
+    height: 15vh;
+
+}
+#name , #loc , #distance{
+    left: 30vh;
+}
+
+#proximiter{
+    left: 60vh;
+}
+
+#name , #loc{
+    font-size: 20px;
+    font-weight: bold;
+}
+#distance{
+    font-size: 16px;
+    font-weight: 300;
+}
+.V2{
+    left: 30vh;
+    top: 80%;
+}
+
+/* */
+
+.M1 {
+    left: 30vh;
+    top: 30%;
+}
+
+.I3 , .I4 , .I5::placeholder{
+    text-align: center;
+}
+
+
+.I1 , .M2 {
+    left: 30vh;
+    top: 40%;
+}
+
+.I2 , .M3 {
+    left: 30vh;
+    top: 50%;
+}
+
+.M4 {
+    left: 30vh;
+    top: 60%;
+
+}
+
+.I3 {
+    left: 13.5vh;
+    top: 60%;
+
+    width: 80px;
+}
+
+.I4 {
+    left: 28vh;
+    top: 60%;
+
+    width: 80px;
+}
+
+.I5 {
+    left: 44vh;
+    top: 60%;
+
+    width: 100px;
+}
+
+#view-profile{
+    left: 30vh;
+    top: 28%;
+}
+
+.B1{
+    top: 57%;
+}
+
+.bis{
+    top: 67%;
+
+    background-color: #96A6CD;
+    color: white;
+}
