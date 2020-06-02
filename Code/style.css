@@ -592,8 +592,12 @@ input.cmn-toggle-round + label {
 
     div.partage{
         position: absolute;
+        width: 250px;
         left: 270px;
         top: 300px;
         display: flex;
         flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-between
+        ;
     }
