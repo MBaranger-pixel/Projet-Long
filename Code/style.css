@@ -532,13 +532,13 @@ input.cmn-toggle-round + label {
     input.cmn-toggle-round + label:before, input.cmn-toggle-round + label:after {
     display: block;
     position: absolute;
-    top: 2px;
-    left: 2px;
-    bottom: 2px;
+    top: 2.5px;
+    left: 2.5px;
+    bottom: 2.5px;
     content: "";
     }
     input.cmn-toggle-round + label:before {
-    right: 2px;
+    right: 2.5px;
     background-color: #C2C2C2;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
@@ -592,12 +592,12 @@ input.cmn-toggle-round + label {
 
     div.partage{
         position: absolute;
-        width: 250px;
+        width: 255px;
         left: 270px;
         top: 300px;
         display: flex;
         flex-direction: row;
-        align-items: flex-end;
+        align-items: center;
         justify-content: space-between
         ;
     }
