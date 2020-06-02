@@ -323,19 +323,24 @@ section{
     box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.25);
 }
 
-#menu > .contenu  {
+#menu .contenu  {
     list-style: none;
     padding: 0;
     display: flex;
     justify-content: center;
 }
 
-#menu > .contenu nav {
+#menu .contenu nav {
 display: flex;
 flex-direction: column;
 
 }
 
+.write-bar{
+    width: 850px;
+    height: 60px;
+    background-color: blanchedalmond;
+}
 
 
 .contenu  li {
