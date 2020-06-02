@@ -268,3 +268,37 @@ font-size: 20px;
 .Mes4{
     top: 63%;
 }
+
+/*write a message*/
+.writing{
+    position: fixed;
+    display: inline-flex;
+
+    bottom: 5%;
+
+    background-color: #8491B1;
+    border-radius: 17px;
+
+    padding: 2px;
+    width: 300px;
+}
+
+.writing-bar{
+    background-color: transparent;
+    border-width: 0;
+    padding: 2px;
+    left: 30px;
+    
+    width: 260px;
+    height: 30px;
+
+    font-size: 16px;
+    font-weight: 100;
+}
+#send{
+    position: fixed;
+
+    bottom: 5%;
+    right: 8%;
+
+}
