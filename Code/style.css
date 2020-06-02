@@ -538,7 +538,7 @@ input.cmn-toggle-round + label {
     content: "";
     }
     input.cmn-toggle-round + label:before {
-    right: 1px;
+    right: 2px;
     background-color: #C2C2C2;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
@@ -551,7 +551,7 @@ input.cmn-toggle-round + label {
     transition: background 0.4s;
     }
     input.cmn-toggle-round + label:after {
-    width: 25px;
+    width: 24px;
     background-color: #fff;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
