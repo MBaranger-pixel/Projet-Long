@@ -336,14 +336,24 @@ flex-direction: column;
 
 }
 
-.write-bar{
-    width: 850px;
-    height: 60px;
-    background-color: blanchedalmond;
+.writing-bar{
+    width: 325px;
+
+    font-size: 25px;
+    font-weight: 400;
+    text-decoration: none;
+    background: transparent;
+    color: white;
+
+    border: 0;
+    border-bottom: 2px solid white;
+
+    padding: 4px 0;
 }
 
 
 .contenu  li {
     margin:  5vh 0;
     list-style: none;
+    long
 }
