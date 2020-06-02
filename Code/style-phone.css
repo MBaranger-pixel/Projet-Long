@@ -145,3 +145,126 @@ font-size: 20px;
     left: 50%;
     top: 65%;
 }
+
+.back{
+    display: block;
+    position: fixed;
+
+    top: 5%;
+    left: 10%;
+}
+
+.top{
+    text-align: center;
+    position: absolute;
+    transform: translate(-2%);
+    top: 2%;
+
+
+    margin: 10px;
+    font-size: 15px;
+    font-weight: bold;
+
+    width: 100%;
+    
+}
+
+.profile-photo{
+    left: 50%;
+    border-radius: 50%;
+
+    width: 20%;
+    height: 20%;
+
+    text-align: center;
+}
+
+
+.message {
+    font-size: 16px;
+    font-weight: 300;
+
+    padding: 5px;
+    width: 200px;
+
+    position: absolute;
+    
+
+}
+
+.Mes1 , .Mes3{
+
+    border-radius: 12px;
+    border-top-left-radius: 0px;
+
+    background-color: #8491B1;
+
+    text-align: left;
+
+    left: 20%;
+}
+
+.Mes2 , .Mes4{
+
+    border-radius: 12px;
+    border-top-right-radius: 0px;
+
+    background-color: #B6BED6;
+
+    text-align: right;
+
+    left: 40%;
+}
+
+.old , .robin{
+    width: 200px;
+}
+
+.send-message{
+    width: 45px;
+    height: 45px;
+    transform: translate(-50%);
+
+    position: absolute;
+    left: 12%;
+
+    background-image: url(assets/images/base-profile-small.jpg);
+    border-radius: 50%;
+
+}
+
+.SM1{
+    top: 26%;
+}
+
+.SM2{
+    top: 51%;
+}
+
+.Mes1{
+    top: 30%;
+}
+
+.barre{
+    padding: 0;
+    width: 320px;
+    height: 1px;
+
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%);
+
+    background-color: white;
+
+}
+
+.Mes2{
+    top: 45%;
+}
+
+.Mes3{
+    top: 55%;
+}
+.Mes4{
+    top: 63%;
+}
