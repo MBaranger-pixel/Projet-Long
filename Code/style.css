@@ -351,7 +351,7 @@ flex-direction: column;
 }
 
 .wrapper{
-    margin-left: 275px;
+    margin-left: 261px;
     
 }
 
@@ -392,11 +392,61 @@ li.target{
     color: #96A6CD ;
 }
 
-.validation-2{
+.ajout-2{
     position: absolute;
-    left: 50%;
+    left: 310px;
+    top: 517.5px;
 
 }
+
+.cal{
+    position: absolute;
+    margin-top: 2em;
+    background-color:#96A6CD ;
+    box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    left: 260px;
+    height: 558px;
+}
+
+.jour{
+    padding-top: 20px;
+}
+
+
+th ,td{
+    padding: 25px 32.5px;
+}
+
+h2{
+    padding: 20px 0px 5px 0;
+    padding-left: 34px;
+}
+
+.grey{
+    color: rgba(255, 255, 255, 0.49);
+
+}
+
+.today{
+    position: absolute;
+    background-color: #FFFFFF;
+    color: #96A6CD;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+}
+
+.prgrm{
+    position: absolute;
+    border-color: #FFFFFF;
+    border: solid 2px;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+}
+
+
 
 /* liste calendrier */
 
@@ -435,8 +485,8 @@ section.calendar-list p.jour{
 
 .ajouter{
     position: fixed;
-    left: 770px;
-    top: 680px;
+    left: 570px;
+    top: 673px;
 
 }
 
@@ -466,12 +516,22 @@ section.cinema{
     border-radius: 22px;
 }
 
+table{
+
+    font-size: 20px;
+
+}
+
+
+
+
+
 /* input calendrier */
 
 .inputs {
     position: absolute;
     background-color:#96A6CD ;
-    left: 22%;
+    left: 120px;
     top: 17%;
     width: 794px;
     height: 511px;
