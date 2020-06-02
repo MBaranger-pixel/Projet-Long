@@ -145,3 +145,35 @@ font-size: 20px;
     left: 50%;
     top: 65%;
 }
+
+.message {
+    font-size: 16px;
+    font-weight: 300;
+
+    padding: 5px;
+    max-width: 200px;
+}
+
+.Mes1 , .Mes3{
+
+    border-radius: 12px;
+    border-top-left-radius: 0px;
+
+    background-color: #8491B1;
+
+    text-align: left;
+}
+
+.Mes2 , .Mes4{
+
+    border-radius: 12px;
+    border-top-left-radius: 0px;
+
+    background-color: #B6BED6;
+
+    text-align: right;
+}
+
+.old , .robin{
+    width: 200px;
+}
