@@ -532,13 +532,13 @@ input.cmn-toggle-round + label {
     input.cmn-toggle-round + label:before, input.cmn-toggle-round + label:after {
     display: block;
     position: absolute;
-    top: 2.5px;
-    left: 2.5px;
-    bottom: 2.5px;
+    top: 2px;
+    left: 2px;
+    bottom: 2px;
     content: "";
     }
     input.cmn-toggle-round + label:before {
-    right: 2.5px;
+    right: 2px;
     background-color: #C2C2C2;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
@@ -600,4 +600,16 @@ input.cmn-toggle-round + label {
         align-items: center;
         justify-content: space-between
         ;
+    }
+
+    a.valid{
+        position: absolute;
+        top: 414px;
+        left: 290px;
+    }
+
+    a.exit{
+        position: absolute;
+        top: 25px;
+        left: 30px;
     }
