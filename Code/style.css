@@ -7,8 +7,8 @@ margin: 0;
 font-family: 'Roboto', sans-serif;
 }
 body{
-    /* background-color: #96A6CD; */
-    background-color: brown;
+    background-color: #96A6CD;
+    
     color: white;
 }
 
@@ -83,12 +83,12 @@ body{
     color: #96A6CD;
     text-decoration: none;
 
-    position: relative;
     transform: translate(-50%);
     
     background-color: white;
 
-    padding: 1rem;
+    width: 320px;
+    height: 60px;
 }
 
 .login{
@@ -133,8 +133,7 @@ body{
 
 .B1 , .B2 , #or{
 
-    position: relative;
-    display: block;
+    position: absolute;
     left: 50%;
     transform: translate(-50%);
 
@@ -142,12 +141,12 @@ body{
 }
 
 .B1{
-    top: 60%;
+    top: 30%;
     
 }
 
 .B2{
-    top: 60vh;
+    top: 60%;
     
 }
 
