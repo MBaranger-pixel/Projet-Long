@@ -6,6 +6,15 @@ margin: 0;
 
 font-family: 'Roboto', sans-serif;
 }
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
 body{
     /* background-color: #96A6CD; */
     background-color: brown;
@@ -38,7 +47,7 @@ body{
 
 }
 
-.validation , .info , .autour , #name , #loc , #proximiter
+.info2, .validation , .info , .autour , #name , #loc , #proximiter
 .profile , #view-profile {
     position: absolute;
     transform: translate(-50%);
@@ -242,7 +251,7 @@ body{
     top: 80%;
 }
 
-/* */
+/*  */
 
 .M1 {
     left: 30vh;
@@ -307,6 +316,8 @@ body{
     color: white;
 }
 
+/* calendrier pour filleul (Calender.html) */
+
 section{
     display: block;
 }
@@ -333,12 +344,175 @@ section{
 #menu > .contenu nav {
 display: flex;
 flex-direction: column;
-
 }
-
-
 
 .contenu  li {
     margin:  5vh 0;
     list-style: none;
+}
+
+.wrapper{
+    margin-left: 275px;
+    
+}
+
+.top-list{
+    padding-top: 50px;
+}
+
+.top-list .nav-links {
+    background-color:#96A6CD;
+    display: flex;
+    top: 50px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.25);
+}
+
+ul.nav-links{
+    height: 50px;
+    width: 290px;
+}
+
+.nav{
+    padding: 10px 1.75em;
+}
+
+.text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    color: #FFFFFF;
+}
+
+li.target{
+    background-color: #FFFFFF;
+    border-radius: 15px;
+}
+
+.target .text{
+    color: #96A6CD ;
+}
+
+.validation-2{
+    position: absolute;
+    left: 50%;
+
+}
+
+/* liste calendrier */
+
+section.calendar-list.anniversaire{
+    padding: 10px 20px;
+    margin: 15px 3em 15px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7E8CB1;
+    border-radius: 22px;
+}
+
+section.calendar-list div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+section.calendar-list div p{
+padding: 0 20px;
+font-size: 26px;
+font-weight: 390;
+}
+
+section.calendar-list p.jour{
+   
+    font-size: 26px;
+    font-weight: 200;
+    }
+
+.layer{
+    margin-top: 4em;
+}
+
+.ajouter{
+    position: fixed;
+    left: 770px;
+    top: 680px;
+
+}
+
+section.medecin{
+    padding: 10px 20px;
+    margin: 15px 3em 15px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 22px;
+}
+
+section.medecin p{
+color: #96A6CD ;
+}
+
+section.cinema{
+    padding: 10px 20px;
+    margin: 15px 3em 15px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #B6BED6;
+    border-radius: 22px;
+}
+
+/* input calendrier */
+
+.inputs {
+    position: absolute;
+    background-color:#96A6CD ;
+    left: 22%;
+    top: 17%;
+    width: 794px;
+    height: 511px;
+    border-radius: 24px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+
+
+}
+
+.info2 {
+
+
+    font-size: 25px;
+    font-weight: 400;
+    text-decoration: none;
+    background: transparent;
+    color: white;
+
+    border: 0;
+    border-bottom: 2px solid white;
+
+    padding: 4px 0;
+    
+
+}
+
+.C1{
+    position: absolute;
+    left: 50%;
+    top: 16vh;
+}
+
+.C2{
+position: absolute;
+left: 50%;
+top: 23vh;
+}
+
+.C3{
+    position: absolute;
+    left: 50%;
+    top: 30vh;
 }
