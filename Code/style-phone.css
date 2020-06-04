@@ -12,10 +12,88 @@ body{
         color: white;
 }
 
-.validation , .info , .autour , #name , #loc , #proximiter
+.top-title{
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+}
+
+.validation , .info , .autour , #name , #loc , #proximiter ,
 .profile , #view-profile , #Info-profile , #Info-profile-lieux {
     position: absolute;
     transform: translate(-50%);
+}
+
+#title{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.menu{
+    width: 346px;
+    height: 70px;
+    background-color: white;
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    position: absolute;
+    transform: translate(-50%);
+    left: 50%;
+    bottom: 0;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.40);
+}
+
+.liste{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+
+    position: fixed;
+    bottom: 70px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.contact{
+    width: 350px;
+    height: 80px;
+
+    background-color: whitesmoke;
+    border-radius: 15px;
+
+    color: #96A6CD;
+}
+.ligne{
+    width: 240px;
+    height: 1px;
+
+    background-color: #96A6CD;
+    border-radius: 1px;
+}
+
+#photo{
+
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+#derniere-Co{
+    font-weight: 100;
+    font-size: 15px;
+
+    transform: translate(-50%);
+    position: absolute;
+    right: 2px;
+}
+
+#bouton{
+    transform: translate(16%);
 }
 
 #who{
@@ -173,9 +251,6 @@ font-size: 20px;
     left: 50%;
     border-radius: 50%;
 
-    width: 20%;
-    height: 20%;
-
     text-align: center;
 }
 
@@ -272,9 +347,9 @@ font-size: 20px;
 /*write a message*/
 .writing{
     position: fixed;
-    display: inline-flex;
 
     bottom: 5%;
+    left: 5%;
 
     background-color: #8491B1;
     border-radius: 17px;
@@ -299,6 +374,6 @@ font-size: 20px;
     position: fixed;
 
     bottom: 5%;
-    right: 8%;
+    right: 5%;
 
 }
