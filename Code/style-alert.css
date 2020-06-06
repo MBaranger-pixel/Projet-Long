@@ -1,0 +1,259 @@
+body {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Roboto', sans-serif;
+  }
+  .wrapper {
+    position: absolute;
+    align-items: center;
+    top: 5%;
+    left: 46%;
+    margin: 0;
+    padding: 0;
+  }
+  .material-icons {
+    font-size: 16rem;
+  }
+  .bell {
+    position: relative;
+    margin: 0;
+    padding: 0;
+  }
+  .anchor {
+    transform-origin: center top;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+  }
+  .layer-1 {
+    color: #1d1e22;
+    z-index: 9;
+    animation: animation-layer-1 5000ms infinite;
+    opacity: 0;
+  }
+  .layer-2 {
+    color: #1d1e22;
+    z-index: 8;
+    position: absolute;
+    top:0;
+    left: 0;
+    animation: animation-layer-2 5000ms infinite;
+  }
+  .layer-3 {
+    color: #333642;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: animation-layer-3 5000ms infinite;
+  }
+  @keyframes animation-layer-1 {
+    0% {
+      transform: rotate(0deg);
+      opacity:0;
+    }
+    8% {
+      transform: rotate(0deg);
+      opacity:0;
+    }
+    12% {
+      transform: rotate(42deg);
+      opacity:0.5;
+    }
+    16% {
+      transform: rotate(-35deg);
+      opacity:0.4;
+    }
+    20% {
+      transform: rotate(0deg);
+      opacity:0.1;
+    }
+    23% {
+      transform: rotate(28deg);
+      opacity:0.3;
+    }
+    26% {
+      transform: rotate(-20deg);
+      opacity:0.2;
+    }
+    29% {
+      transform: rotate(0deg);
+      opacity:0.1;
+    }
+    31% {
+      transform: rotate(16deg);
+      opacity:0;
+    }
+    33% {
+      transform: rotate(-12deg);
+      opacity:0;
+    }
+    35% {
+      transform: rotate(0deg);
+      opacity:0;
+    }
+    37% {
+      transform: rotate(-6deg);
+      opacity:0;
+    }
+    39% {
+      transform: rotate(0deg);
+      opacity:0;
+    }
+  }
+  
+  @keyframes animation-layer-2 {
+    0% {
+      transform: rotate(0deg);
+    }
+    8% {
+      transform: rotate(0deg);
+    }
+    12% {
+      transform: rotate(42deg);
+    }
+    16% {
+      transform: rotate(-35deg);
+    }
+    20% {
+      transform: rotate(0deg);
+    }
+   23% {
+      transform: rotate(28deg);
+    }
+    26% {
+      transform: rotate(-20deg);
+    }
+    29% {
+      transform: rotate(0deg);
+    }
+    31% {
+      transform: rotate(16deg);
+    }
+    33% {
+      transform: rotate(-12deg);
+    }
+    35% {
+      transform: rotate(0deg);
+    }
+    37% {
+      transform: rotate(-6deg);
+    }
+    39% {
+      transform: rotate(0deg);
+    }
+    40% {
+      transform: rotate(6deg);
+    }
+    44% {
+      transform: rotate(-3deg);
+    }
+    49% {
+      transform: rotate(2deg);
+    }
+    55% {
+      transform: rotate(0deg);
+    }
+    62% {
+      transform: rotate(1deg);
+    }
+    70% {
+      transform: rotate(0deg);
+    }
+  }
+  @keyframes animation-layer-3 {
+    0% {
+      transform: rotate(0deg);
+      opacity:1;
+    }
+    8% {
+      transform: rotate(0deg);
+      opacity:1;
+    }
+    12% {
+      transform: rotate(52deg);
+      opacity:0.5;
+    }
+    16% {
+      transform: rotate(-48deg);
+      opacity:0.4;
+    }
+    20% {
+      transform: rotate(0deg);
+      opacity:1;
+    }
+    23% {
+      transform: rotate(42deg);
+      opacity:0.3;
+    }
+    26% {
+      transform: rotate(-30deg);
+      opacity:0.2;
+    }
+    29% {
+      transform: rotate(0deg);
+      opacity:1;
+    }
+    31% {
+      transform: rotate(26deg);
+      opacity:0.15;
+    }
+    33% {
+      transform: rotate(-18deg);
+      opacity:1;
+    }
+    35% {
+      transform: rotate(0deg);
+      opacity:1;
+    }
+    37% {
+      transform: rotate(-12deg);
+      opacity:0.8;
+    }
+    40% {
+      transform: rotate(6deg);
+      opacity:0;
+    }
+    44% {
+      transform: rotate(-3deg);
+      opacity:0.8;
+    }
+    49% {
+      transform: rotate(2deg);
+      opacity:1;
+    }
+    55% {
+      transform: rotate(0deg);
+      opacity:1;
+    }
+    62% {
+      transform: rotate(1deg);
+      opacity:1;
+    }
+    70% {
+      transform: rotate(0deg);
+      opacity:1;
+    }
+  }
+
+  h1{
+      font-weight: 300;
+      font-size: 39px;
+      color: #96A6CD;
+
+      position: absolute;
+      left: 50%;
+      top: 40%;
+
+      transform: translate(-50%);
+  }
+
+  #validation{
+      position: absolute;
+      left: 50%;
+      top: 70%;
+
+      transform: translate(-50%);
+  }

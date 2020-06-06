@@ -531,8 +531,11 @@ table{
 .inputs {
     position: absolute;
     background-color:#96A6CD ;
-    left: 120px;
-    top: 17%;
+    left: 50%;
+    top: 20%;
+
+    transform: translate(-50%);
+
     width: 794px;
     height: 511px;
     border-radius: 24px;
