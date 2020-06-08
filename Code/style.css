@@ -21,6 +21,11 @@ body{
     color: white;
 }
 
+#background{
+    position: fixed;
+    right: 0;
+}
+
 ::placeholder{
     color: white;
 }
@@ -57,7 +62,7 @@ body{
     position: absolute;
 
     top: 20vh;
-    left: 30vh;
+    left: 50%;
     transform: translate(-50%);
 }
 
@@ -65,16 +70,21 @@ body{
     position: absolute;
 
     top: 30vh;
-    left: 30vh;
+    left: 50%;
     transform: translate(-50%);
 }
 
 .save{
-    position: fixed;
+    position: absolute;
     left: 50%;
-    top: 10px;
-    
     transform: translate(-50%);
+    top: 40%;
+    position: absolute;
+    width: 255px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .saveme{
@@ -97,8 +107,7 @@ body{
     
     background-color: white;
 
-    width: 320px;
-    height: 60px;
+    padding: 2rem;
 }
 
 .login{
@@ -115,7 +124,7 @@ body{
     position: absolute;
 
     top: 60%;
-    left: 30vh;
+    left: 50%;
     transform: translate(-50%);
 
     font-size: 20px;
@@ -128,43 +137,46 @@ body{
     
 }
 
+.reseau{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
 /* Page séléction (select.html) */
 
 #choice , #where , #who{
     position: absolute;
     transform: translate(-50%);
-    top: 20vh;
+    top: 20%;
     left: 50%;
 
-    font-size: 30px;
+    font-size: 30pt;
     color: white;
     font-weight: bold;
 }
 
-.B1 , .B2 , #or{
-
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-
-    font-size: 25px;
-}
-
 .B1{
-    top: 30%;
+    top: 20%;
+    font-size: 25pt;
     
 }
 
 .B2{
     top: 60%;
+    font-size: 25pt;
     
 }
 
 #or{
-    top: 50vh;
-
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
     text-transform: uppercase;
     font-weight: bold;
+    font-size: 30pt;
 }
 
 /* Page Localisation (cr-age-1.html) */
@@ -662,8 +674,7 @@ input.cmn-toggle-round + label {
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-between
-        ;
+        justify-content: space-between;
     }
 
     a.valid{
