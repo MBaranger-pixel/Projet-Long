@@ -260,6 +260,7 @@ div.liste{
     color: black;
     margin: 2em 2em;
     height: 100px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
 
 }
 
@@ -278,19 +279,19 @@ margin-top: 1px;
 
 #proximiter1{
     position: absolute;
-    left: 65vh;
+    left: 57vh;
     top: 125px;
 }
 
 #proximiter2{
     position: absolute;
-    left: 65vh;
+    left: 57vh;
     top: 260px;
 }
 
 #proximiter3{
     position: absolute;
-    left: 65vh;
+    left: 57vh;
     top: 390px;
 }
 
@@ -303,7 +304,7 @@ margin-top: 1px;
     font-weight: 300;
 }
 .V2{
-    left: 40vh;
+    left: 50%;
     top: 80%;
 }
 
