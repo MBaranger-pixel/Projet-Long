@@ -54,7 +54,7 @@ body{
 
 }
 
-.info2, .validation , .info , .autour , #proximiter1 #proximiter2 #proximiter3
+.info2, .validation , .info , .autour , #name , #loc , #proximiter
 .profile , #view-profile {
     position: absolute;
     transform: translate(-50%);
@@ -146,9 +146,20 @@ body{
     transform: translate(-50%);
 }
 
+#where , #who{
+    position: absolute;
+    transform: translate(-50%);
+    top: 10%;
+    left: 50%;
+
+    font-size: 30pt;
+    color: white;
+    font-weight: bold;
+}
+
 /* Page séléction (select.html) */
 
-#choice , #where , #who{
+#choice{
     position: absolute;
     transform: translate(-50%);
     top: 20%;
@@ -206,7 +217,7 @@ body{
 }
 
 .V1 , .V3 , .V4 , .V5 {
-    left: 30vh;
+    left: 50%;
     top: 70%;
 }
 
@@ -232,56 +243,25 @@ body{
     font-size: 40px;
 
     text-align: center;
-    padding: 0;
     
 }
 
-div.liste{
-    margin-top: 10em;
-}
-
-div.profile{
-    display: flex;
-    flex-direction: row;
+.profile{
     background-color: white;
-    border-radius: 20px;
+    border-radius: 2rem;
     color: black;
-    margin: 2em 2em;
-    height: 100px;
 
-}
+    width: 50vh;
+    height: 15vh;
 
-.profile div{
-    margin:0 10px;
-}
-
-img.photo{
-    border-radius: 20px 0 0 20px;
 }
 #name , #loc , #distance{
-    padding: 4px 0;
+    left: 30vh;
 }
 
-#proximiter1{
-    position: absolute;
-    left: 65vh;
-    top: 8em;
-    
+#proximiter{
+    left: 60vh;
 }
-
-#proximiter2{
-    position: absolute;
-    left: 65vh;
-    top: 260px;
-    
-}
-
-#proximiter3{
-    position: absolute;
-    left: 65vh;
-    top: 390px;
-}
-
 
 #name , #loc{
     font-size: 20px;
@@ -292,14 +272,14 @@ img.photo{
     font-weight: 300;
 }
 .V2{
-    left: 40vh;
+    left: 30vh;
     top: 80%;
 }
 
 /*  */
 
 .M1 {
-    left: 30vh;
+    left: 50%;
     top: 30%;
 }
 
@@ -309,37 +289,37 @@ img.photo{
 
 
 .I1 , .M2 {
-    left: 30vh;
+    left: 50%;
     top: 40%;
 }
 
 .I2 , .M3 {
-    left: 30vh;
+    left: 50%;
     top: 50%;
 }
 
 .M4 {
-    left: 30vh;
+    left: 50%;
     top: 60%;
 
 }
 
 .I3 {
-    left: 13.5vh;
+    left: 155px;
     top: 60%;
 
     width: 80px;
 }
 
 .I4 {
-    left: 28vh;
+    left: 270px;
     top: 60%;
 
     width: 80px;
 }
 
 .I5 {
-    left: 44vh;
+    right: 70px;
     top: 60%;
 
     width: 100px;
@@ -398,7 +378,7 @@ flex-direction: column;
 }
 
 .top-list{
-    padding-top: 75px;
+    padding-top: 50px;
 }
 
 .top-list .nav-links {
@@ -494,7 +474,7 @@ h2{
 
 section.calendar-list.anniversaire{
     padding: 10px 20px;
-    margin: 15px 4.8em 15px 0;
+    margin: 15px 3em 15px 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -527,14 +507,14 @@ section.calendar-list p.jour{
 
 .ajouter{
     position: fixed;
-    left: 645px;
-    top: 720px;
+    left: 570px;
+    top: 673px;
 
 }
 
 section.medecin{
     padding: 10px 20px;
-    margin: 15px 4.8em 15px 0;
+    margin: 15px 3em 15px 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -549,7 +529,7 @@ color: #96A6CD ;
 
 section.cinema{
     padding: 10px 20px;
-    margin: 15px 4.8em 15px 0;
+    margin: 15px 3em 15px 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
