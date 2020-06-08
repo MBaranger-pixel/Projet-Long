@@ -146,9 +146,20 @@ body{
     transform: translate(-50%);
 }
 
+#where , #who{
+    position: absolute;
+    transform: translate(-50%);
+    top: 10%;
+    left: 50%;
+
+    font-size: 30pt;
+    color: white;
+    font-weight: bold;
+}
+
 /* Page séléction (select.html) */
 
-#choice , #where , #who{
+#choice{
     position: absolute;
     transform: translate(-50%);
     top: 20%;
@@ -206,7 +217,7 @@ body{
 }
 
 .V1 , .V3 , .V4 , .V5 {
-    left: 30vh;
+    left: 50%;
     top: 70%;
 }
 
@@ -268,7 +279,7 @@ body{
 /*  */
 
 .M1 {
-    left: 30vh;
+    left: 50%;
     top: 30%;
 }
 
@@ -278,37 +289,37 @@ body{
 
 
 .I1 , .M2 {
-    left: 30vh;
+    left: 50%;
     top: 40%;
 }
 
 .I2 , .M3 {
-    left: 30vh;
+    left: 50%;
     top: 50%;
 }
 
 .M4 {
-    left: 30vh;
+    left: 50%;
     top: 60%;
 
 }
 
 .I3 {
-    left: 13.5vh;
+    left: 155px;
     top: 60%;
 
     width: 80px;
 }
 
 .I4 {
-    left: 28vh;
+    left: 270px;
     top: 60%;
 
     width: 80px;
 }
 
 .I5 {
-    left: 44vh;
+    right: 70px;
     top: 60%;
 
     width: 100px;
