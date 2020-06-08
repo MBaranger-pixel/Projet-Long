@@ -47,7 +47,7 @@ body{
 
 }
 
-.info2, .validation , .info , .autour , #name , #loc , #proximiter
+.info2, .validation , .info , .autour , #proximiter1 #proximiter2 #proximiter3
 .profile , #view-profile {
     position: absolute;
     transform: translate(-50%);
@@ -218,25 +218,56 @@ body{
     font-size: 40px;
 
     text-align: center;
+    padding: 0;
     
 }
 
-.profile{
+div.liste{
+    margin-top: 10em;
+}
+
+div.profile{
+    display: flex;
+    flex-direction: row;
     background-color: white;
-    border-radius: 2rem;
+    border-radius: 20px;
     color: black;
+    margin: 2em 2em;
+    height: 100px;
 
-    width: 50vh;
-    height: 15vh;
+}
 
+.profile div{
+    margin:0 10px;
+}
+
+img.photo{
+    border-radius: 20px 0 0 20px;
 }
 #name , #loc , #distance{
-    left: 30vh;
+    padding: 4px 0;
 }
 
-#proximiter{
-    left: 60vh;
+#proximiter1{
+    position: absolute;
+    left: 65vh;
+    top: 8em;
+    
 }
+
+#proximiter2{
+    position: absolute;
+    left: 65vh;
+    top: 260px;
+    
+}
+
+#proximiter3{
+    position: absolute;
+    left: 65vh;
+    top: 390px;
+}
+
 
 #name , #loc{
     font-size: 20px;
@@ -247,7 +278,7 @@ body{
     font-weight: 300;
 }
 .V2{
-    left: 30vh;
+    left: 40vh;
     top: 80%;
 }
 
@@ -357,7 +388,7 @@ flex-direction: column;
 }
 
 .top-list{
-    padding-top: 50px;
+    padding-top: 75px;
 }
 
 .top-list .nav-links {
@@ -453,7 +484,7 @@ h2{
 
 section.calendar-list.anniversaire{
     padding: 10px 20px;
-    margin: 15px 3em 15px 0;
+    margin: 15px 4.8em 15px 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -486,14 +517,14 @@ section.calendar-list p.jour{
 
 .ajouter{
     position: fixed;
-    left: 570px;
-    top: 673px;
+    left: 645px;
+    top: 720px;
 
 }
 
 section.medecin{
     padding: 10px 20px;
-    margin: 15px 3em 15px 0;
+    margin: 15px 4.8em 15px 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -508,7 +539,7 @@ color: #96A6CD ;
 
 section.cinema{
     padding: 10px 20px;
-    margin: 15px 3em 15px 0;
+    margin: 15px 4.8em 15px 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
