@@ -751,7 +751,10 @@ input.cmn-toggle-round + label {
     .friends-list{
         position: absolute;
 
-        right: 0;
+        right: 0px;
+        width: 82%;
+
+        background-size: contain;
     }
 
     .top{
@@ -904,7 +907,7 @@ input.cmn-toggle-round + label {
         border-radius: 17px;
     
         padding: 8px;
-        width: 845px;
+        width: 800px;
     }
     
     .writing-bar{
@@ -913,7 +916,7 @@ input.cmn-toggle-round + label {
         padding: 2px;
         left: 3px;
         
-        width: 800px;
+        width: 760px;
         height: 30px;
     
         font-size: 16px;
@@ -936,4 +939,21 @@ input.cmn-toggle-round + label {
 
         font-weight: 100;
         font-size: 16px;
+    }
+
+    .help-list{
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+
+        margin-top: 30%;
+    }
+
+    .help{
+        width: 460px;
+        height: 110px;
+
+        background-color: #818DAE;
+        border-radius: 2rem;
+
+        font-size: 30px;
     }
