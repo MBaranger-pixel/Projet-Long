@@ -54,7 +54,7 @@ body{
 
 }
 
-.info2, .validation , .info , .autour , #name , #loc , #proximiter
+.info2, .validation , .info , .autour ,  #proximiter1   #proximiter2   #proximiter3
 .profile , #view-profile {
     position: absolute;
     transform: translate(-50%);
@@ -243,24 +243,54 @@ body{
     font-size: 40px;
 
     text-align: center;
+    padding: 0;
     
 }
 
+div.liste{
+    margin-top: 10em;
+}
+
 .profile{
+    display: flex;
+    flex-direction: row;
     background-color: white;
-    border-radius: 2rem;
+    border-radius: 20px;
     color: black;
-
-    width: 50vh;
-    height: 15vh;
+    margin: 2em 2em;
+    height: 100px;
 
 }
+
+.profile div{
+margin-left: 1em;
+margin-top: 1px;
+}
+
+.photo{
+    border-radius: 20px 0 0 20px;
+}
+
 #name , #loc , #distance{
-    left: 30vh;
+    padding: 4px 0;
 }
 
-#proximiter{
-    left: 60vh;
+#proximiter1{
+    position: absolute;
+    left: 65vh;
+    top: 125px;
+}
+
+#proximiter2{
+    position: absolute;
+    left: 65vh;
+    top: 260px;
+}
+
+#proximiter3{
+    position: absolute;
+    left: 65vh;
+    top: 390px;
 }
 
 #name , #loc{
@@ -272,7 +302,7 @@ body{
     font-weight: 300;
 }
 .V2{
-    left: 30vh;
+    left: 40vh;
     top: 80%;
 }
 
