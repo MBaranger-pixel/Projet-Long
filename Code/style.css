@@ -464,19 +464,19 @@ li.target{
 
 .ajout-2{
     position: absolute;
-    left: 310px;
-    top: 517.5px;
+    left: 345px;
+    top: 575px;
 
 }
 
 .cal{
     position: absolute;
-    margin-top: 2em;
+    margin-top: 3em;
     background-color:#96A6CD ;
     box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     left: 260px;
-    height: 558px;
+    height: 616px;
 }
 
 .jour{
@@ -485,11 +485,11 @@ li.target{
 
 
 th ,td{
-    padding: 25px 32.5px;
+    padding: 32px 38px;
 }
 
 h2{
-    padding: 20px 0px 5px 0;
+    padding: 25px 0px 10px 0;
     padding-left: 34px;
 }
 
@@ -555,8 +555,8 @@ section.calendar-list p.jour{
 
 .ajouter{
     position: fixed;
-    left: 570px;
-    top: 673px;
+    left: 610px;
+    top: 710px;
 
 }
 
