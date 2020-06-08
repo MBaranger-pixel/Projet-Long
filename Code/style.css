@@ -21,6 +21,11 @@ body{
     color: white;
 }
 
+#background{
+    position: fixed;
+    right: 0;
+}
+
 ::placeholder{
     color: white;
 }
@@ -30,6 +35,8 @@ body{
     width: 50%;
     height: 100%;
     background-color: #96A6CD;
+
+    box-shadow: 10px 0px 20px rgba(0, 0, 0, 0.288); 
 }
 .log , .info {
     width: 325px;
@@ -57,7 +64,7 @@ body{
     position: absolute;
 
     top: 20vh;
-    left: 30vh;
+    left: 50%;
     transform: translate(-50%);
 }
 
@@ -65,16 +72,21 @@ body{
     position: absolute;
 
     top: 30vh;
-    left: 30vh;
+    left: 50%;
     transform: translate(-50%);
 }
 
 .save{
-    position: fixed;
+    position: absolute;
     left: 50%;
-    top: 10px;
-    
     transform: translate(-50%);
+    top: 40%;
+    position: absolute;
+    width: 255px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .saveme{
@@ -87,7 +99,7 @@ body{
     text-align: center;
     position: absolute;
 
-    border-radius: 2rem;
+    border-radius: 3rem;
 
     font-size: 35px;
     color: #96A6CD;
@@ -97,8 +109,7 @@ body{
     
     background-color: white;
 
-    width: 320px;
-    height: 60px;
+    padding: 1.2rem;
 }
 
 .login{
@@ -115,7 +126,7 @@ body{
     position: absolute;
 
     top: 60%;
-    left: 30vh;
+    left: 50%;
     transform: translate(-50%);
 
     font-size: 20px;
@@ -128,43 +139,46 @@ body{
     
 }
 
+.reseau{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
 /* Page séléction (select.html) */
 
 #choice , #where , #who{
     position: absolute;
     transform: translate(-50%);
-    top: 20vh;
+    top: 20%;
     left: 50%;
 
-    font-size: 30px;
+    font-size: 30pt;
     color: white;
     font-weight: bold;
 }
 
-.B1 , .B2 , #or{
-
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-
-    font-size: 25px;
-}
-
 .B1{
-    top: 30%;
+    top: 35%;
+    font-size: 25pt;
     
 }
 
 .B2{
-    top: 60%;
+    top: 65%;
+    font-size: 25pt;
     
 }
 
 #or{
-    top: 50vh;
-
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 500;
+    font-size: 30px;
 }
 
 /* Page Localisation (cr-age-1.html) */
@@ -175,18 +189,18 @@ body{
 }
 
 .A1 {
-    left: 30vh;
+    left: 50%;
     top: 50%;
 }
 
 .A2{
-    left: 12vh;
+    left: 144px;
     top: 60%;
     width: 50px;
 }
 
 .A3{
-    left: 36vh;
+    left: 327px;
     top: 60%;
     width: 230px;
 }
@@ -334,10 +348,6 @@ img.photo{
 #view-profile{
     left: 30vh;
     top: 28%;
-}
-
-.B1{
-    top: 57%;
 }
 
 .bis{
@@ -693,8 +703,7 @@ input.cmn-toggle-round + label {
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-between
-        ;
+        justify-content: space-between;
     }
 
     a.valid{
