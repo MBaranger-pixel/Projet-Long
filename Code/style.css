@@ -279,19 +279,19 @@ margin-top: 1px;
 
 #proximiter1{
     position: absolute;
-    left: 57vh;
+    left: 60vh;
     top: 125px;
 }
 
 #proximiter2{
     position: absolute;
-    left: 57vh;
+    left: 60vh;
     top: 260px;
 }
 
 #proximiter3{
     position: absolute;
-    left: 57vh;
+    left: 60vh;
     top: 390px;
 }
 
@@ -464,7 +464,7 @@ li.target{
 
 .ajout-2{
     position: absolute;
-    left: 345px;
+    left: 379px;
     top: 575px;
 
 }
@@ -485,7 +485,7 @@ li.target{
 
 
 th ,td{
-    padding: 32px 38px;
+    padding: 32px 43px;
 }
 
 h2{
@@ -555,7 +555,7 @@ section.calendar-list p.jour{
 
 .ajouter{
     position: fixed;
-    left: 610px;
+    left: 657px;
     top: 710px;
 
 }
@@ -742,8 +742,8 @@ input.cmn-toggle-round + label {
 
     a.exit{
         position: absolute;
-        top: 25px;
-        left: 30px;
+        top: 45px;
+        left: 46px;
     }
 
     /* Messagerie version Ipad */
@@ -936,4 +936,38 @@ input.cmn-toggle-round + label {
 
         font-weight: 100;
         font-size: 16px;
+    }
+
+    /* Paramètre d'interface */
+
+    .validmodif{
+        margin: 0 0 0 301px;
+    }
+
+    .taille{
+        margin: 1.5em 244px;
+    }
+
+    h4{
+        margin: 0 0 0 140px;
+        font-size: 40px;
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    .case{
+        margin: 1.5em 329px;
+    }
+
+    .content{
+        margin-top: 9em;
+    }
+
+    .parametre{
+        position: absolute;
+        left: 140px;
+        top: 50px;
+        font-size: 50px;
+        line-height: 59px;
+
     }
