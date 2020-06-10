@@ -971,3 +971,47 @@ input.cmn-toggle-round + label {
         line-height: 59px;
 
     }
+
+    /* Page aide (support.html) */
+    .help-list{
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        grid-gap: 30px;
+
+        position: fixed;
+        left: 50%;
+        top: 30%;
+        transform: translate(-50%);
+    }
+
+    .help{
+        height: 110px;
+        width: 460px;
+        background-color: #818DAE;
+        border-radius: 1.5rem;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .help p{
+        font-size: 30px;
+        font-weight: 400;
+
+        width: 355px;
+        padding-left: 5%;
+        margin-top: 1rem;
+
+    }
+
+    .help img{
+        padding-right: 20px;
+    }
+
+    #help-title{
+        text-align: center;
+        padding-top: 1em;
+
+        font-size: 50px;
+        font-weight: Bold;
+
+    }
