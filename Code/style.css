@@ -963,7 +963,7 @@ input.cmn-toggle-round + label {
         margin-top: 9em;
     }
 
-    .parametre{
+    .grostitre{
         position: absolute;
         left: 140px;
         top: 50px;
@@ -971,3 +971,105 @@ input.cmn-toggle-round + label {
         line-height: 59px;
 
     }
+
+    /* Liste de course */
+
+    .titre-liste{
+        padding-top: 41px;
+        font-size: 50px;
+    }
+
+    .layer2{
+        margin-top: 1em;
+        display: flex;
+        flex-direction: row;
+    }
+
+    section.course-list{
+        height: 35px;
+        width: 385px;
+        padding: 9px 20px;
+        margin-bottom: 26px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #ffffff;
+        color: #96A6CD;
+        border-radius: 8px;
+        box-shadow: 0px 0px 27px rgba(0, 0, 0, 0.161);
+    }
+
+    .gauche{
+        margin: 0 1em 0 0;
+    }
+
+    .droite{
+        margin: 0 0 0 1em;
+    }
+
+    .article{
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .qte{
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+    .upload{
+        position: absolute;
+        left: 599px;
+        top: 737.5px;
+    }
+
+    .ajout3{
+        position: absolute;
+        left: 720px;
+        top: 737.5px;
+    }
+
+    /* article sauvegardé */
+
+    .layer3{
+        margin-top: 1em;
+        margin-left: 82.5px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .course-list2{
+        height: 35px;
+        width: 432px;
+        padding: 9px 20px;
+        margin-bottom: 26px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #ffffff;
+        color: #96A6CD;
+        border-radius: 8px;
+        box-shadow: 0px 0px 27px rgba(0, 0, 0, 0.161);
+    }
+
+    .gauche2{
+        margin: 0 40px 0 0;
+    }
+
+    .droite2{
+        margin: 0 0 0 40px;
+    }
+
+    .artsauve{
+        padding: 41px 0 0 82.5px;
+        font-size: 50px;
+    }
+
+    .ajout4{
+        position: absolute;
+        left: 499px;
+        top: 683px;
+    }
+
